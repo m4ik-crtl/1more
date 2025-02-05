@@ -6,6 +6,7 @@
     <title>Maikon & Gustavo</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- FontAwesome -->
 </head>
 <body>
     <div class="container">
@@ -27,7 +28,16 @@
                 </p>
                 <p class="signature">Te amo e feliz mais um mês! 💕</p>
             </div>
+            <button id="playPauseBtn" class="play-button">
+                <i id="playIcon" class="fas fa-play"></i>  <!-- Ícone de Play -->
+            </button>
+
+            <audio id="backgroundMusic" loop>
+                <source src="audio.mp3" type="audio/mpeg">
+                Seu navegador não suporta áudio.
+            </audio>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
