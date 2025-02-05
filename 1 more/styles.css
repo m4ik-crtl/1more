@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap');
+
+body {
+    background-color: #0d0d0d;
+    color: #fff;
+    font-family: 'IM Fell DW Pica', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+    max-width: 500px;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.5);
+}
+
+.photo-frame {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 6px solid #d17878;
+    margin: 0 auto 20px;
+    box-shadow: 0 0 12px rgba(209, 120, 120, 0.5);
+}
+
+.photo-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 36px;
+    color: #d17878;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-style: italic;
+    color: #d17878;
+    margin-bottom: 20px;
+}
+
+.message-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.signature {
+    font-size: 22px;
+    color: #d17878;
+    text-align: center;
+    margin-top: 10px;
+}
